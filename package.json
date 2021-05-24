@@ -1,0 +1,16 @@
+{
+  "name": "webtube-reload",
+  "version": "1.0.0",
+  "description": "the best way to watch a videos",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaeSangJung/wetube_reloaded.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaeSangJung/wetube_reloaded/issues"
+  },
+  "homepage": "https://github.com/ChaeSangJung/wetube_reloaded#readme"
+}
