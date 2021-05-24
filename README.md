@@ -21,6 +21,9 @@
 - #3.2 GET Requests part Two
     - request : 유저가 뭔가를 요청하거나,보내거나, 네게 무슨 행동을 한다.
 - #3.3 Responses
+    - req & res
+        - req = POST 로 전달한 정보를 요청해서, 정보를 받음 !
+        - res = 정보를 응답! ( res.send )
 - #3.4 Recap
 - #3.5 Middlewares part One
 - #3.6 Middlewares part Two
