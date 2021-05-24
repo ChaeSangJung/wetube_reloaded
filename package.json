@@ -7,10 +7,16 @@
     "type": "git",
     "url": "git+https://github.com/ChaeSangJung/wetube_reloaded.git"
   },
+  "scripts": {
+    "win": "node index.js"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ChaeSangJung/wetube_reloaded/issues"
   },
-  "homepage": "https://github.com/ChaeSangJung/wetube_reloaded#readme"
+  "homepage": "https://github.com/ChaeSangJung/wetube_reloaded#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
