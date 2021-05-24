@@ -14,11 +14,13 @@
 - #2.4 Nodemon
     - npm install @babel/node --save-dev
 
-- #3.0 Your First Server (12:03)
+- #3.0 Your First Server
     - request를 listenning
-- #3.1 GET Requests (05:05)
-- #3.2 GET Requests part Two (09:42)
-- #3.3 Responses (11:23)
-- #3.4 Recap (06:28)
-- #3.5 Middlewares part One (09:17)
-- #3.6 Middlewares part Two (11:40)
+- #3.1 GET Requests
+    
+- #3.2 GET Requests part Two
+    - request : 유저가 뭔가를 요청하거나,보내거나, 네게 무슨 행동을 한다.
+- #3.3 Responses
+- #3.4 Recap
+- #3.5 Middlewares part One
+- #3.6 Middlewares part Two
