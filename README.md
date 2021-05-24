@@ -12,3 +12,4 @@
 }
 ```
 - #2.4 Nodemon
+    - npm install @babel/node --save-dev
