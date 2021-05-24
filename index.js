@@ -1,1 +1,3 @@
-console.log('xxx')
+const express = require("express");
+
+const app = express();
