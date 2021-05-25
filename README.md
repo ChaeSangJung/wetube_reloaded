@@ -53,21 +53,21 @@
 - #3.11 External Middlewares
     - npmjs.com npm i morgan
 - #4.0 What are Routers?
-# Wetube Reloaded
+    - Wetube Reloaded
 
-/ -> Home
-/join -> Join
-/login -> Login
-/search -> Search
+        - / -> Home
+        - /join -> Join
+        - /login -> Login
+        - /search -> Search
 
-/users/edit -> Edit user
-/users/delete -> Delete user
+        - /users/edit -> Edit user
+        - /users/delete -> Delete user
 
-/videos/watch -> Watch Video
-/videos/edit -> Edit Video
-/videos/delete -> Delete Video
-/videos/comments -> Comment on a video
-/videos/comments/delete -> Delete A Comment of a Video    
+        - /videos/watch -> Watch Video
+        - /videos/edit -> Edit Video
+        - /videos/delete -> Delete Video
+        - /videos/comments -> Comment on a video
+        - /videos/comments/delete -> Delete A
 - #4.1 Making Our Routers
 - #4.2 Cleaning the Code
 - #4.3 Exports
