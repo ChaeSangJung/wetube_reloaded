@@ -50,3 +50,26 @@
         - helmet - 기초보안담당함
         - cookieParser - 쿠키를 다룰 수 있음
         - bodyParser - form데이터를 서버로 받아와서 활용가능함.
+- #3.11 External Middlewares
+    - npmjs.com npm i morgan
+- #4.0 What are Routers?
+# Wetube Reloaded
+
+/ -> Home
+/join -> Join
+/login -> Login
+/search -> Search
+
+/users/edit -> Edit user
+/users/delete -> Delete user
+
+/videos/watch -> Watch Video
+/videos/edit -> Edit Video
+/videos/delete -> Delete Video
+/videos/comments -> Comment on a video
+/videos/comments/delete -> Delete A Comment of a Video    
+- #4.1 Making Our Routers
+- #4.2 Cleaning the Code
+- #4.3 Exports
+- #4.4 Router Recap
+- #4.5 Architecture Recap
