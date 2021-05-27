@@ -76,6 +76,18 @@
 - #4.4 Router Recap
 - #4.5 Architecture Recap
 - #4.6 Planning Routes
-- #4.7 URL Parameters part One
+- #4.7 URL Parameters part One    
+``` javascript
+// 순서 중요
+videoRouter.get("/:id", see);
+videoRouter.get("/upload", upload);
+// upload도 parameter로 인식
+```
 - #4.8 URL Parameters part Two
 
+- #5.0 Returning HTML
+- #5.1 Configuring Pug
+- #5.2 Partials
+- #5.3 Extending Templates
+- #5.4 Variables to Templates
+- #5.5 Recap
