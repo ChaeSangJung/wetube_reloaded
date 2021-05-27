@@ -93,6 +93,12 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 
 - #5.0 Returning HTML
 - #5.1 Configuring Pug
+    - 1단계 : pug를 설치한다.
+    - 2단계 : pug를 뷰 엔진으로 설정한다. app.set("view engine", "pug");
+    - 3단계 : 실제로 pug 파일을 생성한다.
+    - 에러가 나는 이유!!
+        - express는 기본적으로 cwd + /views에서 pug 파일을 찾는다.
+        - node가 시작하는 곳은 package.json이 있는 곳
 - #5.2 Partials
 - #5.3 Extending Templates
 - #5.4 Variables to Templates
