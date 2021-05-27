@@ -100,6 +100,7 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
         - express는 기본적으로 cwd + /views에서 pug 파일을 찾는다.
         - node가 시작하는 곳은 package.json이 있는 곳
 - #5.2 Partials
+    - default 현재 작업 디렉토리(cwd)/views => app.set("views", process.cwd() + "/src/views");
 - #5.3 Extending Templates
 - #5.4 Variables to Templates
 - #5.5 Recap
