@@ -84,6 +84,12 @@ videoRouter.get("/upload", upload);
 // upload도 parameter로 인식
 ```
 - #4.8 URL Parameters part Two
+``` javascript
+videoRouter.get("/:id(\\d+)", see);
+videoRouter.get("/:id(\\d+)/edit", edit);
+videoRouter.get("/:id(\\d+)/delete", deleteVideo);
+// 정규식!! 
+```
 
 - #5.0 Returning HTML
 - #5.1 Configuring Pug
