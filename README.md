@@ -107,6 +107,7 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #5.6 MVP Styles
 - #5.7 Conditionals
 - #5.8 Iteration
+    - array의 모든 element에 대해 특정 행동을 취할 때
 - #5.9 Mixins
     - data를 받을 수 있는 partial
 - #5.10 Recap
