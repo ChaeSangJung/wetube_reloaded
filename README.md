@@ -108,4 +108,5 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #5.7 Conditionals
 - #5.8 Iteration
 - #5.9 Mixins
+    - data를 받을 수 있는 partial
 - #5.10 Recap
