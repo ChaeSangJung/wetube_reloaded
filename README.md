@@ -104,3 +104,8 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #5.3 Extending Templates
 - #5.4 Variables to Templates
 - #5.5 Recap
+- #5.6 MVP Styles
+- #5.7 Conditionals
+- #5.8 Iteration
+- #5.9 Mixins
+- #5.10 Recap
