@@ -111,3 +111,8 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #5.9 Mixins
     - data를 받을 수 있는 partial
 - #5.10 Recap
+- #6.0 Array Database part One
+- #6.1 Array Database part Two
+- #6.2 Edit Video part One
+- #6.3 Edit Video part Two
+- #6.4 Recap
