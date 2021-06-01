@@ -116,3 +116,27 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #6.2 Edit Video part One
 - #6.3 Edit Video part Two
 - #6.4 Recap
+- #6.5 More Practice part One
+- #6.6 More Practice part Two
+- #6.7 Introduction to MongoDB
+- #6.8 Connecting to Mongo
+- #6.9 CRUD Introduction
+- #6.10 Video Model
+- #6.11 Our First Query
+- #6.12 Our First Query part Two
+- #6.13 Async Await
+- #6.14 Returns and Renders
+- #6.15 Creating a Video part One
+- #6.16 Creating a Video part Two
+- #6.17 Exceptions and Validation
+- #6.18 More Schema
+- #6.19 Video Detail
+- #6.20 Edit Video part One
+- #6.21 Edit Video part Two
+- #6.22 Edit Video part Three
+- #6.23 Middlewares
+- #6.24 Statics
+- #6.25 Delete Video
+- #6.26 Search part One
+- #6.27 Search part Two
+- #6.28 Conclusions
