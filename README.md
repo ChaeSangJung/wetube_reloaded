@@ -126,7 +126,7 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
     - Read
     - Update
     - Delete
-- #6.10 Video Model
+- #6.10 Video Model
     - schema
 - #6.11 Our First Query
 - #6.12 Our First Query part Two
