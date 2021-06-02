@@ -122,7 +122,12 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #6.8 Connecting to Mongo
     - https://dangphongvanthanh.wordpress.com/2017/06/12/add-mongos-bin-folder-to-the-path-environment-variable/
 - #6.9 CRUD Introduction
+    - Create
+    - Read
+    - Update
+    - Delete
 - #6.10 Video Model
+    - schema
 - #6.11 Our First Query
 - #6.12 Our First Query part Two
 - #6.13 Async Await
