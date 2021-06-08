@@ -148,3 +148,4 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #6.28 Conclusions
 
 - #7.0 Create Account part One
+- #7.1 Create Account part Two
