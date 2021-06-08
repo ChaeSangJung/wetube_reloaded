@@ -149,3 +149,9 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 
 - #7.0 Create Account part One
 - #7.1 Create Account part Two
+    - show dbs
+    - use wetube
+    - show collections
+    - db.users.find()
+- #7.2 Creating Account part Three
+    -bcrypt
