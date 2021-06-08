@@ -158,3 +158,4 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #7.3 Form Validation
 - #7.4 Status Codesc
 - #7.5 Login part One
+- #7.6 Login part Two
