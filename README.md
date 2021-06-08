@@ -157,3 +157,4 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
     - bcrypt
 - #7.3 Form Validation
 - #7.4 Status Codesc
+- #7.5 Login part One
