@@ -155,3 +155,4 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
     - db.users.find()
 - #7.2 Creating Account part Three
     -bcrypt
+- #7.3 Form Validation
