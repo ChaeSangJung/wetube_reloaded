@@ -161,3 +161,4 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #7.6 Login part Two
 - #7.7 Sessions and Cookies part One
 - #7.8 Sessions and Cookies part Two
+- #7.9 Logged In User
