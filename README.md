@@ -168,3 +168,4 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #7.13 Uninitialized Sessions
 - #7.14 Expiration and Secrets
 - #7.15 Environment Variables
+- #7.16 Github Login part One
