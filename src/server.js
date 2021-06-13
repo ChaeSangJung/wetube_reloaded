@@ -20,19 +20,19 @@ app.use(
         secret: process.env.COOKIE_SECRET,
         resave: false,
         saveUninitialized: false,
-        cookie: {
-            maxAge: 20000, //millisec
-        },
+        // cookie: {
+        //     maxAge: 20000, //millisec
+        // },
         store: MongoStore.create({ mongoUrl: process.env.DB_URL }),
     })
 );
 
-app.use((req, res, next) => {    
-    req.sessionStore.all((error, sessions) => {
-        console.log(sessions);
-        next();
-    });
-});
+// app.use((req, res, next) => {    
+//     req.sessionStore.all((error, sessions) => {
+//         console.log(sessions);
+//         next();
+//     });
+// });
 
 app.use(localsMiddleware);
 app.use("/", rootRouter);
