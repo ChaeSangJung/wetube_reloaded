@@ -164,3 +164,4 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #7.9 Logged In User
 - #7.10 Logged In User part Two
 - #7.11 Recap
+- #7.12 MongoStore
