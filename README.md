@@ -169,3 +169,4 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #7.14 Expiration and Secrets
 - #7.15 Environment Variables
 - #7.16 Github Login part One
+- #7.17 Github Login part Two
