@@ -174,3 +174,4 @@ videoRouter.get("/:id(\\d+)/delete", deleteVideo);
 - #7.19 Github Login part Four
 - #7.20 Github Login part Five 
 - #7.21 Github Login part Six
+- #7.22 Log Out
