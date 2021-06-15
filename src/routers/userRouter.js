@@ -1,11 +1,11 @@
 import express from "express";
 import {
-    edit,
-    remove,
-    logout,
-    see,
-    startGithubLogin,
-    finishGithubLogin,
+  edit,
+  remove,
+  logout,
+  see,
+  startGithubLogin,
+  finishGithubLogin,
 } from "../controllers/userController";
 
 const userRouter = express.Router();

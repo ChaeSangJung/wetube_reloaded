@@ -20,12 +20,27 @@ app.use(
         secret: process.env.COOKIE_SECRET,
         resave: false,
         saveUninitialized: false,
-        // cookie: {
-        //     maxAge: 20000, //millisec
-        // },
         store: MongoStore.create({ mongoUrl: process.env.DB_URL }),
     })
 );
+
+app.use(localsMiddleware);
+app.use("/", rootRouter);
+app.use("/videos", videoRouter);
+app.use("/users", userRouter);
+
+export default app;
+// app.use(
+//     session({
+//         secret: process.env.COOKIE_SECRET,
+//         resave: false,
+//         saveUninitialized: false,
+//         // cookie: {
+//         //     maxAge: 20000, //millisec
+//         // },
+//         store: MongoStore.create({ mongoUrl: process.env.DB_URL }),
+//     })
+// );
 
 // app.use((req, res, next) => {    
 //     req.sessionStore.all((error, sessions) => {
@@ -34,9 +49,9 @@ app.use(
 //     });
 // });
 
-app.use(localsMiddleware);
-app.use("/", rootRouter);
-app.use("/videos", videoRouter);
-app.use("/users", userRouter);
+// app.use(localsMiddleware);
+// app.use("/", rootRouter);
+// app.use("/videos", videoRouter);
+// app.use("/users", userRouter);
 
-export default app;
+// export default app;
